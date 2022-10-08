@@ -1,0 +1,578 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 0;
+}
+
+header {
+    position: absolute;
+    top:0;
+    right:0;
+    left:0;
+    min-height: 80px;
+}
+ 
+li {
+    list-style: none;
+}
+
+h1 {
+    font-family: 'Forum', cursive;
+    font-size: 73px;
+    color: #FFFFFF;
+    margin: 318px 138px 17px 60px;
+    line-height: 96px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.position-relative {
+    position: relative;
+}
+.text-align-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.top_wrp {
+    font-size:14px;
+    line-height: 18px;
+    font-family: 'Roboto Serif', serif;
+    background-color: #191919;
+    color: #fff;
+    width: 100%;
+    max-height: 50px;
+    padding-bottom: 50px;
+}
+
+.logo {
+    padding-top: 25px;
+}
+
+.btn_top {
+  
+    padding-right: 21px;
+    position: absolute;
+    right: 0;
+    top:20px
+}
+
+
+.main_nav {
+    margin: 40px 81px 0px 60px;
+    gap: 32px;
+    display: flex;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-transform: uppercase;
+   
+}
+
+.title {
+    background-color:#996B60;
+}
+
+.title_image {
+     width: 50%;
+}
+
+.title_paragraph {
+    font-family: 'Roboto', serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin: 17px 88px 64px 60px;
+}
+
+.button_title {
+    border:1px solid #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: 'Roboto', serif;
+    padding: 18px 52px 18px 52px;
+    margin: 0px 480px 100px 60px
+}
+
+.button_title:hover {
+    background-color: #d3a189;
+}
+
+.review_list {
+    margin-top: 60px;
+    padding: 0;
+    padding-bottom: 0px;
+}
+
+
+.review_item {
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: 'Roboto', serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: black;
+}
+
+.review-image {
+    margin-top: 16px;
+}
+
+.solid-line-page {
+    margin: 40px 60px 65px 60px;
+    border: solid 1px #BDBDBD;
+    
+}
+
+.product_slogan {
+    text-align: center;
+    font-family: 'Forum', cursive;
+    font-size: 64px;
+    line-height: 80px;
+    color: #000000;
+    margin-left: 384px;
+    margin-right: 384px;
+    padding-top: 45px;
+}
+
+.product_slogan_text {
+    text-align: center;
+    font-family: 'Roboto', serif;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 82px;
+}
+
+
+
+.product_title {
+    font-size: 30px;
+    line-height: 44px;
+    font-family: 'Forum', cursive;
+    color: #000000;
+}
+
+.product_paragraph {
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Roboto', serif;
+    text-align: center;
+    color: #000000;
+    padding: 0 32px;
+}
+
+.bestseller {
+    top: 23px;
+    right: 61px;
+    color: #fff;
+    background-color: #000000;
+    position: absolute;
+    font-family: 'Roboto', serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 50%;
+    overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    width: 100px;
+}
+
+.bestseller_right {
+    top: 23px;
+    right: 23px;
+
+}
+
+.product_button {
+    border:1px solid #000000;
+    background-color: #000000;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: 'Roboto', serif;
+    padding: 18px 52px 18px 52px;
+    margin-bottom: 100px;
+}
+
+.product_button:hover {
+    background-color: #d3a189;
+    border-color: #d3a189;
+}
+
+.intro_text {
+    gap: 343px;
+}
+
+.intro_slogan {
+    font-family: 'Forum', cursive;
+    font-size: 53px;
+    color: #000000; 
+    max-width: 430px;
+    max-height: 80px;
+    margin-top: 60px;
+    margin-bottom: 75px;
+}
+
+.intro_paragraph {    
+    font-family: 'Roboto', serif;  
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    max-width: 500px;
+    max-height: 100px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.about_slogan {
+    font-family: 'Forum', cursive;
+    font-size: 30px;
+    line-height: 44px;
+    color: #000000;
+    margin-top: 50px;
+}
+
+.about_paragraph {
+    font-family: 'Roboto', serif; 
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    margin-bottom:0 0 0 20px;
+}
+
+.about_image {
+    margin-left: 60px;
+}
+
+.feedback {
+    background-color: #000000;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    padding: 95px 45px 50px 45px;
+    padding-bottom: 60px;
+    gap: 180px;
+    text-align: center;
+}
+
+
+   
+.feedback_text {
+    font-family: 'Roboto', serif; 
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 32px;
+    
+}
+
+.feedback_name {
+    color: #FFFFFF;
+    font-family: 'Roboto', serif; 
+    font-size:  14px;
+    line-height: 21px;
+    text-transform: uppercase;
+    padding-top: 17px;
+    padding-bottom: 10px;
+}
+
+.verified_buyer {
+    color: #8A8A8A;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: capitalize;
+    padding-left: 30px;
+}
+
+.learnmore_image {
+    margin-right: 100px;
+}
+
+.learnmore_title {
+    font-family: 'Forum', cursive;
+    font-size: 64px;
+    line-height: 80px;
+    color: #000000;
+}
+
+.learnmore_paragraph {
+    font-family: 'Roboto', serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000000;
+    padding-top: 154px;
+}
+
+.learnmore_button {
+    border:1px solid #fff;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'Roboto', serif;
+    margin-top: 35px;
+}
+
+.calltoaction_wrapper {
+    background-image: url(../img/calltoaction_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1px;
+    margin-top: 60px;
+    padding-bottom: 92px;
+}
+
+.calltoaction_spotify {
+    background-color: #000000;
+    text-align: center;
+    display: block;
+    max-width: 550px;
+    max-height: 303px;
+    
+}
+
+.calltoaction_social {
+    background-color: #000000;
+    text-align: center;
+    max-width: 550px;
+    max-height: 125px;
+}
+
+.calltoaction_title {
+    color: #FFFFFF;
+    font-family: 'Forum', cursive;
+    font-size: 55px;
+    line-height: 80px;
+    padding-top: 40px;
+    margin-bottom: 0;
+}
+
+.calltoaction_paragraph {
+    color: #FFFFFF;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0 60px;
+    margin-top: 0px;
+}
+
+.calltoaction_social_paragraph {
+    color: #FFFFFF;
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    line-height: 28px;
+    padding-top: 30px;
+}
+
+.calltoaction_button {
+    border: 1px solid #fff;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    line-height: 14px;
+    font-family: 'Roboto', serif;
+    padding: 20px 60px;
+    margin-bottom: 40px;
+}
+
+.calltoaction_link {
+    margin: auto;
+    padding-left: 134px;
+    padding-right: 134px;
+    justify-content: space-around;
+    padding-bottom: 32px;
+}
+
+.calltoaction_item {
+    color: #FFFFFF;
+    font-family: 'Roboto', serif;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.footer_wrapp {
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+.footer_post {
+    max-width: 424px;
+}
+
+.footer_title {
+    font-family: 'Forum', cursive;
+    font-size: 42px;
+    line-height: 72px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+    padding-top: 45px;
+}
+
+.footer_paragraph {
+    font-family: 'Roboto', serif;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.footer_active {
+    font-family: 'Roboto', serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    padding-bottom: 21px;
+}
+
+.input_text {
+    font-family: 'Roboto', serif;
+    color: #818181;
+    font-size: 9px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    
+}
+
+.footer_input__button {
+    color: #FFFFFF;
+    font-family: 'Roboto', serif;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+}
+
+.input_email {
+    color: #818181;
+    background-color: #000000;
+    font-family: 'Roboto', serif;
+    font-size: 9px;
+    line-height: 14px;
+    letter-spacing: 0.12px;
+    text-transform: uppercase;
+    border-color: #000000;
+    width: 100%;
+}
+
+.title_nav {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 21px;
+    font-family: 'Roboto', serif;
+    text-transform: uppercase;
+}
+
+.footer_item {
+    font-family: 'Roboto', serif;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.footer_navigation {
+    padding-top: 55px;
+    gap: 131px;
+}
+
+.footer_list li {
+    padding-top: 20px;
+}
+
+.footer_last {
+    margin-top: 141px;
+    padding-bottom: 55px;
+}
+
+.footer_last_item {
+    color:#FFFFFF;
+    font-family: 'Roboto', serif;
+    font-size: 15px;
+    line-height: 24px;
+    padding-right: 60px;
+}
+
+.footer_last_link {
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto', serif;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
